@@ -63,6 +63,7 @@ $(".ul").on("touchend","li",function(e){
 	}
 	if (end-start<-50) {
 		$(".done").eq($(this).index()).css("display","none")
+		$(".delete").eq($(this).index()).css("display","none")
 		arr[$(this).index()].status=0
 		localStorage.x=JSON.stringify(arr)
 	}	

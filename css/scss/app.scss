@@ -141,6 +141,25 @@ input{
             width: 0;
             height: 0;
         }
+        .delete{
+            width: 0.5rem;
+            height: 0.5rem;
+            border-radius: 10%;
+            position: absolute;
+            right: 1.2rem;
+            @include t-b;
+            color: darkred;
+            background: #efefef;
+            text-align: center;
+            line-height: 0.5rem;
+            font-size: 0.08rem;
+            letter-spacing: 0;
+            display: block;
+        }
+        .delete1{
+            width: 0;
+            height: 0;
+        }
     }
 }
 .fixb{

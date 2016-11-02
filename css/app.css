@@ -56,7 +56,8 @@ input {
   width: 1rem;
   background: #26252B;
   box-sizing: border-box;
-  padding: 0.4rem 0.25rem; }
+  padding: 0.4rem 0.25rem;
+  z-index: 50; }
   .fix .add {
     width: 0.5rem;
     height: 0.5rem;
@@ -118,6 +119,26 @@ input {
     line-height: 1rem;
     font-weight: 600;
     letter-spacing: 0.05rem; }
+    .ul li .done {
+      width: 1rem;
+      height: 0.5rem;
+      border-radius: 10%;
+      position: absolute;
+      right: 0;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      color: deepskyblue;
+      background: #efefef;
+      text-align: center;
+      line-height: 0.5rem;
+      font-size: 15px;
+      letter-spacing: 0;
+      display: none; }
+    .ul li .done1 {
+      width: 0;
+      height: 0; }
 
 .fixb {
   position: fixed;
@@ -128,7 +149,8 @@ input {
   background: #000;
   height: 1rem;
   width: 100%;
-  line-height: 1rem; }
+  line-height: 1rem;
+  z-index: 99; }
 
 .help {
   width: 100%;
@@ -140,7 +162,8 @@ input {
   color: #fff;
   text-align: center;
   padding-left: 1.4rem;
-  padding-right: 0.4rem; }
+  padding-right: 0.4rem;
+  display: none; }
 
 .ok {
   width: 0.6rem;

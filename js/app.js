@@ -18,7 +18,6 @@ $(".fixb").on("touchend",function(){
 
 $(".ok").on("touchend",function(){
 	var val=$("input").val()
-	var 
 	$("<li>"+$("input").val()+"</li>").appendTo($(".ul"))
 	$("input").val("")
 })
